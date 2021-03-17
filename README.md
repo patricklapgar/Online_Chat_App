@@ -5,6 +5,10 @@ I went with a chat application due to not being able to meet anyone else in pers
 
 ## Link To Project
 
+Use the following credentials to access the app:
+- Username: newuser
+- Password: newuser123 
+
 Please follow this link to see the app! Enjoy :)
 
 https://patrick-chat-app.netlify.app/
