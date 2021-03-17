@@ -26,6 +26,7 @@ const MessageForm = (props) => {
     }
     
     const handleUpload = (event) => {
+        // For images and files, you must use the .files variable
         sendMessage(creds, chatId, { files: event.target.files, text: '' })
     }
 
