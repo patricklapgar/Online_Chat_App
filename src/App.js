@@ -12,7 +12,7 @@ const App = () => {
   return(
     <ChatEngine 
       height="100vh"
-      projectID="62ad886f-e25d-4f3e-b14b-fc18504fbafe" // String that's produced when a chat application initiates
+      projectID="chatengine-project-id-goes-here" // String that's produced when a chat application initiates
       userName={localStorage.getItem('username')} // Username of currently logged in person
       userSecret={localStorage.getItem('password')} // User password
       renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps}/>}
